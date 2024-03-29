@@ -10,7 +10,7 @@ export const Container = styled.div`
   color: ${colors.coral};
   font-size: 18px;
 
-  @media (max-width: 992px) {
+  @media (max-width: 192px) {
     width: 90%;
     margin: 0 auto;
   }

@@ -23,7 +23,7 @@ export const Card = styled.li`
   display: flex;
   flex-direction: column;
   margin: 32px 0;
-  height: 100%;
+  height: 338px;
   position: relative;
   img {
     width: 304px;
@@ -36,7 +36,7 @@ export const Title = styled.h3`
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   color: ${colors.white};
 `
 export const Description = styled.p`
@@ -44,7 +44,7 @@ export const Description = styled.p`
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 14px;
   margin-bottom: 16px;
 `
 export const Button = styled.button`
@@ -59,7 +59,7 @@ export const Button = styled.button`
   line-height: normal;
   cursor: pointer;
   position: absolute;
-  bottom: 8px;
+  bottom: 6px;
   width: 95%;
 `
 export const DescriptionCard = styled.div`
