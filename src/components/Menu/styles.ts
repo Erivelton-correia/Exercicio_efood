@@ -41,11 +41,11 @@ export const Title = styled.h3`
 `
 export const Description = styled.p`
   color: ${colors.white};
+  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 14px;
-  margin-bottom: 16px;
+  line-height: 16px;
+  text-align: left;
 `
 export const Button = styled.button`
   background-color: ${colors.peach};
