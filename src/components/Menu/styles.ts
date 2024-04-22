@@ -23,20 +23,21 @@ export const Card = styled.li`
   display: flex;
   flex-direction: column;
   margin: 32px 0;
-  height: 338px;
+  height: 385px;
+  width: 320px;
   position: relative;
   img {
     width: 304px;
     height: 167px;
-    object-fit: cover;
+    top: 506;
+    left : 179px:
   }
 `
 export const Title = styled.h3`
-  font-size: 18px;
-  font-style: normal;
+  font-family: Roboto;
+  font-size: 16px;
   font-weight: 900;
-  line-height: normal;
-  margin-bottom: 6px;
+  line-height: 19px;
   color: ${colors.white};
 `
 export const Description = styled.p`
@@ -44,9 +45,9 @@ export const Description = styled.p`
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
-  text-align: left;
+  line-height: 22px;
 `
+
 export const Button = styled.button`
   background-color: ${colors.peach};
   color: ${colors.coral};
