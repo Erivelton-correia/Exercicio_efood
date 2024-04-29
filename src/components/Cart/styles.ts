@@ -34,10 +34,10 @@ export const CartContainer = styled.div`
 `
 export const MessageAlert = styled.aside`
   background-color: ${colors.coral};
-  z-index: 1;
-  padding: 40px 16px 0 16px;
-  max-width: 360px;
-  width: 100%;
+  width: 344px;
+  height: 100px;
+  top: 32px;
+  left: 1014px;
 
   p {
     font-size: 14px;
