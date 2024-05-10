@@ -40,7 +40,7 @@ export const MessageAlert = styled.aside`
   left: 1014px;
 
   p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22px;
     color: ${colors.offWhite};
     text-align: center;
